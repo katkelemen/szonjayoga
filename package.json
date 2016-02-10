@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./lib/start.js",
     "test": "test"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/katkelemen/szonjayoga/issues"
   },
-  "homepage": "https://github.com/katkelemen/szonjayoga#readme"
+  "homepage": "https://github.com/katkelemen/szonjayoga#readme",
+  "dependencies": {
+    "hapi": "^12.1.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7"
+  }
 }

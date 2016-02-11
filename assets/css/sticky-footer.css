@@ -15,9 +15,12 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 120px;
-  background-color: #71cfcf;
+  background: rgb(113, 207, 207); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(113, 207, 207, 1),rgba(113, 207, 207, 0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(113, 207, 207, 1),rgba(113, 207, 207, 0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(113, 207, 207, 1),rgba(113, 207, 207, 0)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(113, 207, 207, 1),rgba(113, 207, 207, 0)); /*Standard*/
 }
-
 
 
 

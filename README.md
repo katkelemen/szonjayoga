@@ -2,4 +2,4 @@
 
 site is under construction
 
-visit on [szonjayoga.com](www.szonjayoga.com)
+visit on [www.szonjayoga.com](www.szonjayoga.com)

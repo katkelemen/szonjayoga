@@ -14,6 +14,7 @@ $(document).ready(function() {
     }
   });
 
+  //dropdown parent item link in navbar is also clickable
   jQuery(function($) {
     $('.navbar .dropdown').hover(function() {
     $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
@@ -28,5 +29,12 @@ $(document).ready(function() {
     });
   });
 
-  
+  // toggle active class on navbar items
+  $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+  });
+
+
+
 });

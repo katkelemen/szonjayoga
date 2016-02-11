@@ -94,7 +94,7 @@
 }
 /* mobile version */
 .navbar-default .navbar-toggle {
-    border-color: #DDD;
+    background-color: #d42b81;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -110,6 +110,11 @@
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
+    }
+    .banner {
+      margin: 0 auto;
+      width: 195px;
+      height: 99px;
     }
 }
 

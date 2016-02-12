@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 html {
   position: relative;
-  min-height: 100%;
+  min-height: 900px;
 }
 body {
   /* Margin bottom by footer height */
@@ -24,18 +24,6 @@ body {
 
 .social {
   display: inline-block;
-}
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-  padding: 60px 15px 0;
-}
-
-code {
-  font-size: 80%;
 }
 
 .ryt {

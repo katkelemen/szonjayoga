@@ -1,0 +1,28 @@
+@font-face {
+    font-family: GillSans;
+    src: url(/assets/fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: SignPainter;
+    src: url(/assets/fonts/SignPainter.otf);
+}
+
+body {
+  font-family: GillSans;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/pictures/szonja2opaq.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.inner-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

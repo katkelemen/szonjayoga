@@ -8,21 +8,56 @@
     src: url(/assets/fonts/SignPainter.otf);
 }
 
+html {
+  position: relative;
+  min-height: 900px;
+}
 body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
   font-family: GillSans;
 }
 
+/*home view css*/
 .home-container {
+  padding: 7px;
   width: 100vw;
-  height: 100vh;
-  background-image: url(/assets/pictures/szonja2opaq.JPG);
+  min-height: 100vh;
+  background-image: url(/assets/pictures/szonja2opaq2.JPG);
   background-size: cover;
   background-position: center;
 }
 
 .inner-container {
-    padding-right: 15px;
-    padding-left: 15px;
+    min-height: 100vh;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-top: 20px;
+    padding-bottom: 120px;
     margin-right: auto;
     margin-left: auto;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.space {
+  height: 5vw;
+}
+
+.home-image img {
+  width: 80%;
+  height: auto;
+  border: solid 2px #d42b81;
+  margin: auto;
+}
+
+.home-text {
+  text-align: justify;
+  font-size: large;
+  line-height: 1.8;
+}
+
+.first-line {
+  font-family: SignPainter;
+  color:  #d42b81;
+  font-size: 2em;
 }

@@ -24,6 +24,13 @@ body {
   line-height: 1.8;
 }
 
+.title-text {
+  font-family: SignPainter;
+  color:  #d42b81;
+  font-size: 3em;
+  text-align: center;
+}
+
 .first-line {
   font-family: SignPainter;
   color:  #d42b81;

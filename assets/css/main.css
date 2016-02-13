@@ -38,7 +38,7 @@ body {
 }
 
 /*home view css*/
-.home-container {
+.outer-container {
   padding: 7px;
   width: 100vw;
   min-height: 100vh;
@@ -82,4 +82,16 @@ body {
 
 .margin-pls .first-line {
   margin-right: 0.3em;
+}
+
+/*yoga view css*/
+
+.yoga-text {
+  margin-top: 3em;
+}
+
+.yoga-image .main-img {
+  width: 90%;
+  height: auto;
+  margin-left:0;
 }

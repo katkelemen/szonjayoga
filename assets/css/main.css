@@ -91,6 +91,17 @@ body {
   margin-right: 0.3em;
 }
 
+.social-margin-pls {
+  margin-top: 3em;
+}
+
+my-email::after {
+  content: attr(data-domain);
+}
+my-email::before {
+  content: attr(data-user);
+}
+
 /*yoga view css*/
 
 .yoga-text {
@@ -101,11 +112,4 @@ body {
   width: 90%;
   height: auto;
   margin-left:0;
-}
-
-my-email::after {
-  content: attr(data-domain);
-}
-my-email::before {
-  content: attr(data-user);
 }

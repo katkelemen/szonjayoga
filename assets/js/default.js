@@ -35,5 +35,11 @@ $(document).ready(function() {
    $(this).parent().addClass("active");
   });
 
-
+  //scrolling in firefox in spite of overflow: -moz-scrollbars-none; in css
+  jQuery('html,body').bind('mousewheel', function(event) {
+    event.preventDefault();
+    var scrollTop = this.scrollTop;
+    this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1));
+    //console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
+  });
 });

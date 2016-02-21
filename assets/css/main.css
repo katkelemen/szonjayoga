@@ -8,10 +8,17 @@
     src: url(/assets/fonts/SignPainter.otf);
 }
 
+/*chrome*/
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
+  overflow: -moz-scrollbars-none;
   position: relative;
   min-height: 900px;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 120px;

@@ -64,6 +64,14 @@ body {
 }
 
 /*home view css*/
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+
+
 .outer-container {
   padding: 7px;
   width: 100vw;
@@ -104,7 +112,17 @@ body {
 
 .classes-location p {
   padding-right: 30px;
+}
+
+.private-class {
   text-align: center;
+}
+
+.contact-pic-caption {
+  color: #d42b81;
+  position: relative;
+  left:432px;
+  bottom: 21px;
 }
 
 .classes-location .first-line {

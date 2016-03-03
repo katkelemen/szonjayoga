@@ -65,11 +65,17 @@ body {
 
 /*home view css*/
 
+.carousel .carousel-control {
+  visibility: hidden;
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 60%;
   margin: auto;
-  image-overflow: hidden;
+}
+
+.carousel-control {
+  width: 40px;
 }
 
 .outer-container {

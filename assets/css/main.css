@@ -65,17 +65,17 @@ body {
 
 /*home view css*/
 
-.carousel .carousel-control {
-  visibility: hidden;
-}
+    /*.carousel .carousel-control {
+      visibility: hidden;
+    }*/
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  width: 60%;
+  width: 45%;
   margin: auto;
 }
 
 .carousel-control {
-  width: 40px;
+  width: 200px;
 }
 
 .outer-container {

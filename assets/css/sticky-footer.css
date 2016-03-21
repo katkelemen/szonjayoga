@@ -7,7 +7,7 @@
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 120px;
+  height: 200px;
   background: rgb(113, 207, 207); /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left,rgba(113, 207, 207, 1),rgba(201,0,103, 0.7)); /*Safari 5.1-6*/
   background: -o-linear-gradient(right,rgba(113, 207, 207, 1),rgba(201,0,103, 0.7)); /*Opera 11.1-12*/
@@ -20,6 +20,14 @@
 }
 
 .ryt {
-  height: 90px;
-  width: 90px;
+  width: 80px;
+  height: auto;
+}
+
+.footer-subtext {
+  /*position: absolute;
+  top: 13px;
+  left:80px;*/
+  font-size: 13px;
+  color: #5E5E5E;
 }

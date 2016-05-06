@@ -31,3 +31,11 @@
   font-size: 13px;
   color: #5E5E5E;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) 
+{ 
+	.footer {height: 250px;}
+}

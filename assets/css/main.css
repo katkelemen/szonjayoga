@@ -124,15 +124,23 @@ body {
   text-align: center;
 }
 
+.contact-figure {
+	position: relative;
+}
+
 .contact-pic-caption {
   color: #d42b81;
-  position: relative;
-  left:432px;
-  bottom: 21px;
+  position: absolute;
+  bottom: 5px;
+  left: 15%;
 }
 
 .classes-location .first-line {
   text-align: left;
+}
+
+#fitzrovia, #library {
+	cursor: pointer;
 }
   /*map*/
 

@@ -139,8 +139,8 @@ body {
 
 /*classes view css*/
 .calendar-iframe {
-  width: 100%;
-  margin: auto;
+  width: 80%;
+  margin: 10%;
 }
 .pink-text {
   color: #d42b81;

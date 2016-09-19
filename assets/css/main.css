@@ -138,10 +138,11 @@ body {
 }
 
 /*classes view css*/
-.calendar-iframe {
+
+/*.calendar-iframe {
   width: 80%;
   margin: 10%;
-}
+}*/
 .pink-text {
   color: #d42b81;
 }

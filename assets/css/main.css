@@ -139,10 +139,6 @@ body {
 
 /*classes view css*/
 
-/*.calendar-iframe {
-  width: 80%;
-  margin: 10%;
-}*/
 .pink-text {
   color: #d42b81;
 }
@@ -180,6 +176,7 @@ body {
 
 #fitzrovia, #library {
 	cursor: pointer;
+  text-align: left;
 }
   /*map*/
 
@@ -190,7 +187,6 @@ body {
 }
 
   /* Dates */
-
 .agenda .agenda-date {
     vertical-align: middle;
     width: 60px;
@@ -208,22 +204,32 @@ body {
 .agenda .agenda-date .shortdate {
     font-size: 0.75em;
 }
-  /* Times */
 
+  /* Times */
 .agenda .agenda-time {
     vertical-align: middle;
     min-width: 60px;
     width: 100px;
+    text-align: left;
 }
-  /* Events */
 
+  /* Events */
 .agenda .agenda-events {
   vertical-align: middle;
   min-width: 60px;
   width: 100px;
+  color: grey;
 }
 
 .agenda .agenda-events .agenda-event {}
+
+  /* Places */
+.agenda .agenda-place {
+  vertical-align: middle;
+  min-width: 60px;
+  width: 100px;
+  text-align: left;
+}
 
 @media (max-width: 767px) {
   .table-responsive>.table>tbody>tr>td {

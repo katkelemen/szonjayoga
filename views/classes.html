@@ -33,32 +33,351 @@
 
 
     <div class="container">
-      <h2>Dynamic Tabs</h2>
-      <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
 
       <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+        <li class="active"><a data-toggle="tab" href="#fitzrovia">Fitzrovia Community Centre</a></li>
+        <li><a data-toggle="tab" href="#library">Friern Barnet Community Library</a></li>
       </ul>
 
       <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-          <h3>HOME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div id="fitzrovia" class="tab-pane fade in active">
+          <div class="general-text agenda">
+                         <div class="table-responsive">
+                             <table class="table">
+                                 <thead>
+                                     <tr>
+                                         <th>Dates 2017</th>
+                                         <th>Time</th>
+                                         <th rowspan="2">Class</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <!-- Single event in a single day -->
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">05</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">January</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">12</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">January</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">26</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">January</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">02</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">February</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">09</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">February</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">23</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">February</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">02</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">09</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">16</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">30</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">20</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">April</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">27</div>
+                                             <div class="dayofweek">Thursday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             6:00 PM - 7:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                   </tbody>
+                                 </table>
+                             </div>
+             </div>
+             <!-- sima naptar 2 end -->
         </div>
-        <div id="menu1" class="tab-pane fade">
-          <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div id="menu2" class="tab-pane fade">
-          <h3>Menu 2</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-        </div>
-        <div id="menu3" class="tab-pane fade">
-          <h3>Menu 3</h3>
-          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <div id="library" class="tab-pane fade">
+          <div class="general-text agenda">
+                         <div class="table-responsive">
+                             <table class="table">
+                                 <thead>
+                                     <tr>
+                                         <th>Dates 2017</th>
+                                         <th>Time</th>
+                                         <th rowspan="2">Class</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <!-- Single event in a single day -->
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">10</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">January</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">24</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">January</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">07</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">February</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">21</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">February</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">07</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">21</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">March</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">04</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">April</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td class="agenda-date" class="active" rowspan="1">
+                                             <div class="dayofmonth">18</div>
+                                             <div class="dayofweek">Tuesday</div>
+                                             <div class="shortdate text-muted">April</div>
+                                         </td>
+                                         <td class="agenda-time">
+                                             7:00 PM - 8:00 PM
+                                         </td>
+                                         <td class="agenda-events">
+                                             <div class="agenda-event">
+                                               Vinyasa Flow
+                                             </div>
+                                         </td>
+                                     </tr>
+                                   </tbody>
+                                 </table>
+                             </div>
+             </div>
+             <!-- sima naptar 2 end -->
         </div>
       </div>
     </div>
@@ -67,108 +386,7 @@
 
 
     <!-- sima naptar 1 start -->
-     <div class="general-text agenda">
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Dates 2017</th>
-                                    <th>Time</th>
-                                    <th rowspan="2">Class</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- Single event in a single day -->
-                                <tr>
-                                    <td class="agenda-date" class="active" rowspan="1">
-                                        <div class="dayofmonth">05</div>
-                                        <div class="dayofweek">Thursday</div>
-                                        <div class="shortdate text-muted">January</div>
-                                    </td>
-                                    <td class="agenda-time">
-                                        6:00 PM - 7:00 PM
-                                    </td>
-                                    <td class="agenda-events">
-                                        <div class="agenda-event">
-                                          Vinyasa Flow
-                                        </div>
-                                    </td>
-                                    <td class="agenda-place">
-                                        Fitzrovia Community Centre
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="agenda-date" class="active" rowspan="1">
-                                        <div class="dayofmonth">10</div>
-                                        <div class="dayofweek">Tuesday</div>
-                                        <div class="shortdate text-muted">January</div>
-                                    </td>
-                                    <td class="agenda-time">
-                                        7:00 PM - 8:00 PM
-                                    </td>
-                                    <td class="agenda-events">
-                                        <div class="agenda-event">
-                                          Vinyasa Flow
-                                        </div>
-                                    </td>
-                                    <td class="agenda-place">
-                                        Friern Barnet Community Library
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="agenda-date" class="active" rowspan="1">
-                                        <div class="dayofmonth">12</div>
-                                        <div class="dayofweek">Thursday</div>
-                                        <div class="shortdate text-muted">January</div>
-                                    </td>
-                                    <td class="agenda-time">
-                                        6:00 PM - 7:00 PM
-                                    </td>
-                                    <td class="agenda-events">
-                                        <div class="agenda-event">
-                                          Vinyasa Flow
-                                        </div>
-                                    </td>
-                                    <td class="agenda-place">
-                                        Fitzrovia Community Centre
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="agenda-date" class="active" rowspan="1">
-                                        <div class="dayofmonth">24</div>
-                                        <div class="dayofweek">Tuesday</div>
-                                        <div class="shortdate text-muted">January</div>
-                                    </td>
-                                    <td class="agenda-time">
-                                        7:00 PM - 8:00 PM
-                                    </td>
-                                    <td class="agenda-events">
-                                        <div class="agenda-event">
-                                          Vinyasa Flow
-                                        </div>
-                                    </td>
-                                    <td class="agenda-place">
-                                        Friern Barnet Community Library
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="agenda-date" class="active" rowspan="1">
-                                        <div class="dayofmonth">26</div>
-                                        <div class="dayofweek">Thursday</div>
-                                        <div class="shortdate text-muted">January</div>
-                                    </td>
-                                    <td class="agenda-time">
-                                        6:00 PM - 7:00 PM
-                                    </td>
-                                    <td class="agenda-events">
-                                        <div class="agenda-event">
-                                          Vinyasa Flow
-                                        </div>
-                                    </td>
-                                    <td class="agenda-place">
-                                        Fitzrovia Community Centre
-                                    </td>
-                                </tr>
+
                                  <!-- sima naptar 1 end -->
 
                                 <!-- NEPISZKALD :) Multiple events in a single day (note the rowspan) -->
@@ -209,11 +427,7 @@
                                 </tr> -->
 
                             <!-- sima naptar 2 start  -->
-                          </tbody>
-                        </table>
-                    </div>
-    </div>
-    <!-- sima naptar 2 end -->
+
 
     <div class="space row">
       <!-- potential text or just spacing -->

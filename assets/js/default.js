@@ -29,12 +29,6 @@ $(document).ready(function() {
     });
   });
 
-  // toggle active class on navbar items
-  $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-  });
-
   //scrolling in firefox in spite of overflow: -moz-scrollbars-none; in css
   jQuery('html,body').bind('mousewheel', function(event) {
     event.preventDefault();

@@ -25,6 +25,16 @@ body {
   font-family: GillSans;
 }
 
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
 .made-by {
   float: right;
   font-size: small;

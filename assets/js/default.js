@@ -29,6 +29,8 @@ $(document).ready(function() {
     });
   });
 
+
+
   //scrolling in firefox in spite of overflow: -moz-scrollbars-none; in css
   jQuery('html,body').bind('mousewheel', function(event) {
     event.preventDefault();

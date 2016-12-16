@@ -15,14 +15,14 @@ function init_map() {
             var_mapoptions);
 
 		var_marker.setMap(var_map);
-		
-		$( "#fitzrovia" ).click(function() {
+
+		$( "#fitzrovia_map" ).click(function() {
 			var_marker.setPosition(new google.maps.LatLng(51.5200801, -0.1388887));
 			var_map.setZoom(15);
 		    var_map.setCenter(var_marker.getPosition());
 		});
 
-		$( "#library" ).click(function() {
+		$( "#library_map" ).click(function() {
 			var_marker.setPosition(new google.maps.LatLng(51.6135, -0.1534));
 			var_map.setZoom(15);
 		    var_map.setCenter(var_marker.getPosition());

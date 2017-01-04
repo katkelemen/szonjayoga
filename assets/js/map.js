@@ -9,7 +9,7 @@ function init_map() {
 		var var_marker = new google.maps.Marker({
 			position: var_location,
 			map: var_map,
-			title:"Venice"});
+			title:"london"});
 
         var var_map = new google.maps.Map(document.getElementById("map-container"),
             var_mapoptions);

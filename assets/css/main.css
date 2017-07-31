@@ -52,7 +52,7 @@ a:hover {
 .title-text {
   font-family: SignPainter;
   color:  #d42b81;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -191,7 +191,6 @@ a:hover {
   /*map*/
 
 #map-container {
-  margin-top: 20px;
   height: 300px;
   border: solid 2px #d42b81;
 }
